@@ -3,7 +3,7 @@ using namespace std;
 
 int maximumSubarraySum(vector<int> array, int n)
 {
-    long long sum = 0, maxi = LLONG_MIN;
+    long long sum = 0; long long maxi = LLONG_MIN;
     for (int i = 0; i < n; i++)
     {
         sum += array[i];
