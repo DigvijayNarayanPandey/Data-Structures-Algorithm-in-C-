@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int partion(vector<int> &arr, int low, int high)
+int partition(vector<int> &arr, int low, int high)
 {
     int pivot = arr[low];
     int i = low, j = high;
@@ -20,9 +20,9 @@ int partion(vector<int> &arr, int low, int high)
 
 void qS(vector<int> &arr, int low, int high)
 {
-    if (low < high)
+    if (low < high)     // It indicates more than one elements
     {
-        int pIndex = partion(arr, low, high);
+        int pIndex = partition(arr, low, high);
         qS(arr, low, pIndex - 1);
         qS(arr, pIndex + 1, high);
     }

@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int remove_duplicates(vector<int>& arr)
+int remove_duplicates(vector<int> &arr)
 {
     int n = arr.size(), i = 0, j;
     for (j = 1; j < n; j++)
@@ -22,7 +22,7 @@ int main()
     cout << "Enter the size of the array: ";
     cin >> n;
     vector<int> arr(n);
-    cout << "Enter " << n << " elements(sorted): ";
+    cout << "Enter " << n << " elements(sorted i.e in non-decreasing order): ";
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
@@ -80,6 +80,3 @@ int main()
 
 //     return 0;
 // }
-
-
-
