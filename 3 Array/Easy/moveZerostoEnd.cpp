@@ -38,7 +38,7 @@ int main()
 
     sol.moveZerosToLeft(arr, n);
 
-    cout << "Array after movinf all zeros to left: ";
+    cout << "Array after moving all zeros to left: ";
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";

@@ -37,11 +37,11 @@ public:
         bool result = check(array);
         if (result)
         {
-            cout << "The array id sorted and rotated.\n";
+            cout << "The array is sorted and rotated.\n";
         }
         else
         {
-            cout << "The array is not NOT sorted and rotated.\n";
+            cout << "The array is NOT sorted and rotated.\n";
         }
     }
 };
